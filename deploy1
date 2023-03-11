@@ -1,7 +1,7 @@
 name: EB deploy
 on:
   push:
-    branches: [ main ]
+    branches: [ mmbr1974-patch-3]
 jobs:
   deploy:
     runs-on: ubuntu-latest
