@@ -21,7 +21,7 @@ jobs:
           pip install awsebcli
       - name: Init EB CLI
         run: |
-           eb init --platform ${{secrets.AWS_PLATFORM}} --region ${{secrets.AWS_DEFAULT_REGION }}
+           eb init --platform node.js --region us-east-1
       - name: Deploy to Elastic Beanstalk
         run: |
           eb deploy
